@@ -1,0 +1,7 @@
+Write-Host "=========================="
+$celsius = [double](Read-Host "Enter the temperature in Fahrenheit")
+
+#Calculating temperature in Kelvin
+$kelvin = $celsius + 273.15
+
+Write-Verbose "$celsius degree Celsius is equivalent to $kelvin K" -Verbose
